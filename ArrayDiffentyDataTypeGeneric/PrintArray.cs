@@ -28,8 +28,14 @@ namespace ArrayDiffentyDataTypeGeneric
             foreach (int element in inputArray)
             {
                 Console.WriteLine(element);
+            } 
+        }
+        public void Toprint<T>(T[] inputArray)
+        {
+            foreach (var element in inputArray)
+            {
+                Console.WriteLine(element);
             }
-            
         }
     }
 }

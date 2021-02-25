@@ -14,6 +14,11 @@ namespace ArrayDiffentyDataTypeGeneric
             printArray.Toprint(intArray);
             printArray.Toprint(doubleArray);
             printArray.Toprint(charArray);
+            Console.WriteLine("----------------------------------------------");
+            Console.WriteLine("Generic Array");
+            printArray.Toprint<int>(intArray);
+            printArray.Toprint<double>(doubleArray);
+            printArray.Toprint<char>(charArray);
             Console.ReadLine();
         }
     }
