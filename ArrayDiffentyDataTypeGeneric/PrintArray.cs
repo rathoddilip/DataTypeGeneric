@@ -30,7 +30,7 @@ namespace ArrayDiffentyDataTypeGeneric
                 Console.WriteLine(element);
             } 
         }
-        public void Toprint<T>(T[] inputArray)
+        public void Toprint<T>(T[] inputArray)//Generic method
         {
             foreach (var element in inputArray)
             {
